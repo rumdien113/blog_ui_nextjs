@@ -1,0 +1,18 @@
+# .prettierignore
+
+# Dependencies
+node_modules
+
+# Build artifacts
+.next/
+dist/
+build/
+
+# Config files
+*.lock
+package-lock.json
+yarn.lock
+
+# Other
+.env
+.env.local
